@@ -1,8 +1,8 @@
 import React from "react";
 import "./Mind.css";
-import rec4 from "../assets/rec4 (1).png";
-import rec5 from "../assets/rec4 (2).png";
-import rec6 from "../assets/rec4 (3).png";
+import rec4 from "../assets/rec4(1).png";
+import rec5 from "../assets/rec4(2).png";
+import rec6 from "../assets/rec4(3).png";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
