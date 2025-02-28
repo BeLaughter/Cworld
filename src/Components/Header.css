@@ -1,0 +1,169 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .div1 {
+    width: 260px;
+    height: 250px;
+    padding-left: 30px;
+    padding-top: 25px;
+    top: 320px;
+    left: 868px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: black;
+  }
+  .div2 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    /* margin: auto; */
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* border-bottom-left-radius: 10px; */
+    position: absolute;
+  }
+  .img1 {
+    position: relative;
+    width: 210px;
+    height: 200px;
+    border-bottom-left-radius: 50px;
+    object-fit: fix;
+  }
+
+  .header {
+    padding: 30px;
+  }
+  .one {
+    padding-left: 60px;
+    margin-bottom: 10px;
+  }
+  .view {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .client {
+    width: 220px;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+  .yell {
+    margin-top: 10px;
+    width: 150px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .div1 {
+    width: 260px;
+    height: 250px;
+    padding-left: 30px;
+    padding-top: 25px;
+    top: 320px;
+    left: 868px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: black;
+  }
+  .div2 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    /* margin: auto; */
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* border-bottom-left-radius: 10px; */
+    position: absolute;
+  }
+  .img1 {
+    position: relative;
+    width: 212px;
+    height: 200px;
+    border-bottom-left-radius: 50px;
+    object-fit: fix;
+  }
+  .flex-item1 {
+    width: 60%;
+    padding: 70px;
+  }
+  .flex-item2 {
+    width: 40%;
+    padding: 70px;
+  }
+  .header {
+    padding: 80px;
+    padding-top: 0px !important;
+    height: 82vh;
+  }
+  .one {
+    padding-left: 60px;
+    margin-bottom: 10px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.btn {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.header {
+  background: #ffffcc;
+  background-blend-mode: overlay;
+}
+.two {
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 1;
+  background-color: white;
+  border: 3px solid #0f0f0f;
+  width: 80px;
+  height: 80px;
+}
+.iconsz {
+  width: 30px;
+  height: 30px;
+  color: #fdf9f9;
+}
+.blk {
+  color: #111111 !important;
+}
+.view {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffcc;
+  height: 120px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: rgb(19, 18, 18);
+  border-radius: 10px;
+}
+.view span {
+  color: #faf8f8;
+  font-size: 30px;
+}
+.client {
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #0c0c0c;
+  border-radius: 10px;
+  background-color: black;
+  margin-right: 40px;
+}
+.client span {
+  color: #0e0d0d;
+  font-size: 30px;
+}
+.yell {
+  background-color: gold;
+  border-radius: 10px;
+  padding: 5px;
+  transform: rotate(330deg);
+}

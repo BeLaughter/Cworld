@@ -1,0 +1,72 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .clint {
+    padding: 30px;
+  }
+  .ccard {
+    width: 270px;
+    height: auto;
+  }
+  .ccard2 {
+    width: 270px;
+    height: auto;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .clint {
+    padding: 50px;
+    padding-top: 0px !important;
+    height: 115vh;
+  }
+  .ccard {
+    width: 270px;
+    height: auto;
+  }
+  .ccard2 {
+    width: 270px;
+    height: auto;
+  }
+  .cardcln {
+    padding: 150px;
+    padding-top: 0px !important;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.clint {
+  background: #ffffcc;
+  background-blend-mode: overlay;
+}
+.ccard {
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+.ccard2 {
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+.c-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.c-clint {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}

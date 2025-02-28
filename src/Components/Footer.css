@@ -1,0 +1,73 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .footer {
+    padding: 30px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .footer {
+    padding: 100px;
+    height: 90vh;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.footer {
+  background: #050505;
+  color: white;
+  background-blend-mode: overlay;
+}
+.p-foot {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.p-foot2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.input-btn {
+  background-color: #fcfffc; /* Green */
+  border: none;
+  color: rgb(26, 25, 25);
+  padding: 15px 32px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+.foot-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  resize: vertical;
+}
+hr {
+  height: 10px;
+}
+.icon {
+  width: 50px;
+  margin-right: 20px;
+  height: 50px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+h5 {
+  margin-top: 20px;
+}

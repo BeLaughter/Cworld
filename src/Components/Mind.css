@@ -1,0 +1,47 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .mind {
+    padding: 30px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .mind {
+    padding: 50px;
+    padding-top: 0px !important;
+    height: 120vh;
+  }
+  .mpad {
+    padding: 150px;
+    padding-top: 0px !important;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.mind {
+  background: rgb(230, 176, 176);
+  background-blend-mode: overlay;
+}
+.p-mind {
+  font-size: 15px;
+  font-weight: bold;
+}
+.flex-item3 {
+  width: 250px;
+  height: 500px;
+}
+.mind-img {
+  width: 250px;
+  height: 400px;
+  object-fit: contain;
+}
+.sm-icon {
+  width: 30px !important;
+  height: 30px !important;
+  padding: 2px !important;
+  margin-right: 5px !important;
+}

@@ -1,0 +1,46 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .meet {
+    padding: 30px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .meet {
+    padding: 80px;
+    padding-top: 0px !important;
+    height: 140vh;
+  }
+  .mr50 {
+    margin-left: 100px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.meet {
+  background: rgb(230, 176, 176);
+  background-blend-mode: overlay;
+}
+.box {
+  background-color: black;
+  width: 361px;
+  height: 271px;
+  top: 1107px;
+  left: 828px;
+  border-radius: 22px;
+  gap: 10px;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+.blok {
+  font-family: sans-serif;
+  color: white;
+  margin-bottom: 30px;
+}

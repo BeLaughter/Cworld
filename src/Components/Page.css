@@ -1,0 +1,25 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .page {
+    padding: 30px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .page {
+    padding: 40px;
+    height: 40vh;
+  }
+  .ptop {
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.page {
+  background: #ffffcc;
+  background-blend-mode: overlay;
+}

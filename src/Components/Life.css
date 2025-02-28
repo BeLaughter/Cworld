@@ -1,0 +1,76 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .life {
+    padding: 30px;
+  }
+  .btn-life {
+    margin-top: 20px;
+    margin-left: 180px;
+  }
+  .lcard {
+    width: 350px;
+    height: 280px;
+  }
+  .cardh1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .life {
+    padding: 80px;
+    height: 110vh;
+  }
+  .lcards {
+    padding: 80px;
+  }
+  .lcard {
+    width: 350px;
+    height: auto;
+  }
+  .cardh1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .btn-life {
+    margin-left: 100px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.life {
+  background: #ffffcc;
+  background-blend-mode: overlay;
+}
+.btn-life {
+  border-radius: 15px;
+  background-color: #fafcfa;
+  color: black !important;
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.lcard {
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+.bg-black {
+  background-color: black !important;
+  color: white !important;
+}
+.bgyell {
+  background-color: yellow !important;
+  color: black !important;
+}
