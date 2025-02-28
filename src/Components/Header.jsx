@@ -20,7 +20,7 @@ const Header = () => {
             Get Started
           </a>
           <div className="flex-container">
-            <div className="view">
+            <div className="view hiddenonmobile">
               <span>
                 4.234 <FaHeart className="iconsz" />
               </span>
@@ -28,7 +28,7 @@ const Header = () => {
                 Project View <br></br>Last Year
               </p>
             </div>
-            <div className="client">
+            <div className="client hiddenonmobile">
               <div className="yell">
                 <span>
                   5000 <FaPlus className="iconsz blk" />

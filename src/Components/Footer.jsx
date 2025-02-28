@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="flex-container">
         <div className="flex-item">
           <p className="p-foot">
-            Book a free consultation now<br></br> to discuss how we can help to
-            <br></br> discover your business idea?
+            Book a free consultation now to discuss how we can help to discover
+            your business idea?
           </p>
           <a className="btn btn-warning btn-foot">Get Started Today</a>
         </div>
