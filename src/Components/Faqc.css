@@ -24,6 +24,14 @@
     font-size: 16px;
     margin-bottom: 10px;
   }
+  .faq-p {
+    width: 100%;
+    background-color: #fcfafa;
+    color: #0a0a0a;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 10px;
+  }
 }
 
 /* style contents for larger screens only */
@@ -68,6 +76,14 @@
     font-size: 16px;
     margin: 10px;
   }
+  .faq-p {
+    width: 350px;
+    background-color: #fcfafa;
+    color: #0a0a0a;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 10px;
+  }
 }
 
 /* stylings that doesnt affect screens only */
@@ -75,13 +91,4 @@
 .faqc {
   background: #f8f8f7;
   background-blend-mode: overlay;
-}
-
-.faq-p {
-  width: 350px;
-  background-color: #fcfafa;
-  color: #0a0a0a;
-  padding: 10px 20px;
-  font-size: 15px;
-  margin: 10px;
 }
