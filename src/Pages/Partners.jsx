@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "../Components/Page";
-const Partners = () => {
+const partners = () => {
   return (
     <div>
       <Page h1="PARTNERS" />
@@ -8,4 +8,4 @@ const Partners = () => {
   );
 };
 
-export default Partners;
+export default partners;
