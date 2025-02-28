@@ -6,20 +6,20 @@
   }
   .btn-life {
     margin-top: 20px;
-    margin-left: 180px;
   }
   .lcard {
     width: 100%;
     height: 280px;
     border: 3px solid black;
     border-radius: 20px;
-    margin: 10px;
     padding: 20px;
+    margin-bottom: 30px;
   }
   .cardh1 {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 20px;
+    margin-top: 10px;
   }
 }
 

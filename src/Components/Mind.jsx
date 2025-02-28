@@ -21,10 +21,10 @@ const Mind = () => {
           </p>
         </div>
         <div className="flex-item2">
-          <a className="btn">
+          <a className="">
             <FaArrowLeft className="icon blk" />
           </a>
-          <a className="btn">
+          <a className="">
             <FaArrowRight className="icon blk" />
           </a>
         </div>

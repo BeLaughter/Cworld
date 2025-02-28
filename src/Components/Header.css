@@ -5,6 +5,7 @@
     width: 260px;
     height: 250px;
     padding-left: 30px;
+    padding-right: 30px;
     padding-top: 25px;
     top: 320px;
     left: 868px;
@@ -34,7 +35,6 @@
     padding: 30px;
   }
   .one {
-    padding-left: 60px;
     margin-bottom: 10px;
   }
   .view {
