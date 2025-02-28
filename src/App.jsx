@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Blog from "./Pages/Blog";
-import Partners from "./Pages/partners";
+import Partners from "./Pages/Partners";
 import Faq from "./Pages/Faq";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
