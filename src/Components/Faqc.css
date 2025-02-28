@@ -4,6 +4,26 @@
   .faqc {
     padding: 30px;
   }
+  .faq-btn {
+    width: 100%;
+    background-color: #0c0c0c;
+    color: #fff;
+    padding: 10px;
+    border: 3px solid rgb(15, 15, 15);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .faq-btn:focus {
+    width: 100%;
+    background-color: gold;
+    color: #fff;
+    padding: 10px;
+    border: 3px solid gold;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
 }
 
 /* style contents for larger screens only */
@@ -28,6 +48,26 @@
     padding-left: 60px;
     margin-bottom: 10px;
   }
+  .faq-btn {
+    width: 400px;
+    background-color: #f1efef;
+    color: #0e0d0d;
+    padding: 10px 20px;
+    border: 3px solid rgb(12, 12, 12);
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+  }
+  .faq-btn:focus {
+    width: 400px;
+    background-color: gold;
+    color: #0e0d0d;
+    padding: 10px 20px;
+    border: 3px solid gold;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+  }
 }
 
 /* stylings that doesnt affect screens only */
@@ -36,16 +76,7 @@
   background: #f8f8f7;
   background-blend-mode: overlay;
 }
-.faq-btn {
-  width: 400px;
-  background-color: #050505;
-  color: #fff;
-  padding: 10px 20px;
-  border: 3px solid rgb(90, 84, 84);
-  border-radius: 5px;
-  font-size: 16px;
-  margin: 10px;
-}
+
 .faq-p {
   width: 350px;
   background-color: #fcfafa;

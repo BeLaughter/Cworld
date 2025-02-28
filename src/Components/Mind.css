@@ -4,6 +4,18 @@
   .mind {
     padding: 30px;
   }
+  .flex-item3 {
+    padding: 10px;
+    width: 100%;
+    height: 500px;
+  }
+
+  .mind-img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 15px;
+    object-fit: contain;
+  }
 }
 
 /* style contents for larger screens only */
@@ -18,6 +30,16 @@
     padding: 150px;
     padding-top: 0px !important;
   }
+  .flex-item3 {
+    width: 250px;
+    height: 500px;
+  }
+
+  .mind-img {
+    width: 250px;
+    height: 400px;
+    object-fit: contain;
+  }
 }
 
 /* stylings that doesnt affect screens only */
@@ -30,15 +52,7 @@
   font-size: 15px;
   font-weight: bold;
 }
-.flex-item3 {
-  width: 250px;
-  height: 500px;
-}
-.mind-img {
-  width: 250px;
-  height: 400px;
-  object-fit: contain;
-}
+
 .sm-icon {
   width: 30px !important;
   height: 30px !important;

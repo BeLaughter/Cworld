@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import "./Faqc.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Faqc = () => {
   const [open, setOpen] = useState(false);
   const toggleFAQ = () => {
@@ -11,7 +13,13 @@ const Faqc = () => {
     <div className="faqc">
       <div className="flex-container">
         <div className="flex-item1a">
-          <h1 className="title">FAQ</h1>
+          <h1
+            className="title"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
+            FAQ
+          </h1>
           <p>
             At Cworld, Our strength lies in the passion and expertise of our
             team. We’re a group of innovative thinkers, design enthusiasts, and
