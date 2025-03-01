@@ -4,6 +4,7 @@ import "./Faqc.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 const Faqc = () => {
+  // State for open/close FAQ
   const [open, setOpen] = useState(false);
   const toggleFAQ = () => {
     setOpen(!open);

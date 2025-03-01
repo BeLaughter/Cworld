@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
 import { FaHeart, FaPlus, FaStar } from "react-icons/fa";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import yellow from "../assets/yellow.png";
 const Header = () => {
@@ -8,10 +10,14 @@ const Header = () => {
     <div className="header">
       <div className="flex-container">
         <div className="flex-item1">
-          <h1 className="title">
+          <h1
+            className="title"
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+          >
             Launch Into Digital<br></br> Excellence
           </h1>
-          <p>
+          <p data-aos="zoom-out-right" data-aos-duration="1000">
             With a team of skilled professionals, we combine creativity,
             strategy, and technology to help your business thrive in a dynamic
             digital world.
@@ -43,7 +49,11 @@ const Header = () => {
             <FaStar className="iconsz blk" />
             <FaStar className="iconsz blk" />
           </div>
-          <div className="one">
+          <div
+            className="one"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
             <div className="div1">
               <div className="div2"></div>
               <img src={yellow} alt="yellow" className="img1"></img>
