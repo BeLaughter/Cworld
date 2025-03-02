@@ -7,7 +7,14 @@ import Faq from "./Pages/Faq";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function App() {
+  // Initialize AOS
+  useEffect(() => {
+    Aos.init();
+  }, []);
   // Function to scroll to top when button is clicked.
   const scrollToTop = () => {
     window.scrollTo({

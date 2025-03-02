@@ -1,14 +1,36 @@
-import React from "react";
 import { useState } from "react";
 import "./Faqc.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 const Faqc = () => {
-  // State for open/close FAQ
-  const [open, setOpen] = useState(false);
-  const toggleFAQ = () => {
-    setOpen(!open);
+  // State for each FAQ item
+  const [openIndex, setOpenIndex] = useState(null);
+
+  // Function to toggle a specific FAQ
+  const toggleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
   };
+
+  // FAQ Data
+  const faqs = [
+    {
+      question: "What service does CWorld offer?",
+      answer: "We offer web development, UI/UX design, and branding services.",
+    },
+    {
+      question: "Do you work with international clients?",
+      answer:
+        "  Absolutly! CWorld collaborations with clients globally providing digital design solution regardless of location",
+    },
+    {
+      question: " What is the typical project timeline?",
+      answer:
+        "Yes! We offer ongoing support and maintenance for all our projects.",
+    },
+    {
+      question: " How do i start a project with CWorld?",
+      answer:
+        "Yes! We offer ongoing support and maintenance for all our projects.",
+    },
+  ];
 
   return (
     <div className="faqc">
@@ -32,45 +54,22 @@ const Faqc = () => {
         </div>
         <div className="flex-item2a">
           <div className="faq-input">
-            <button onClick={toggleFAQ} className="faq-btn">
-              What service does CWorld offer?
-            </button>
-            {open && (
-              <p className="faq-p">
-                We offer web development, UI/UX design, and branding services.
-              </p>
-            )}
-          </div>
-          <div className="faq-input">
-            <button onClick={toggleFAQ} className="faq-btn">
-              Do you work with international clients?
-            </button>
-            {open && (
-              <p className="faq-p">
-                Absolutly! CWorld collaborations with clients globally,
-                providing digital design solution regardless of location
-              </p>
-            )}
-          </div>
-          <div className="faq-input">
-            <button onClick={toggleFAQ} className="faq-btn">
-              What is the typical project timeline?
-            </button>
-            {open && (
-              <p className="faq-p">
-                We offer web development, UI/UX design, and branding services.
-              </p>
-            )}
-          </div>
-          <div className="faq-input">
-            <button onClick={toggleFAQ} className="faq-btn">
-              How do i start a project with CWorld?
-            </button>
-            {open && (
-              <p className="faq-p">
-                We offer web development, UI/UX design, and branding services.
-              </p>
-            )}
+            {faqs.map((faq, index) => (
+              <div key={index}>
+                <button onClick={() => toggleFAQ(index)} className="faq-btn">
+                  {faq.question}
+                </button>
+                {openIndex === index && (
+                  <p
+                    data-aos="zoom-in-top"
+                    data-aos-duration="2000"
+                    className="faq-p"
+                  >
+                    {faq.answer}
+                  </p>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@
   }
   .div2 {
     background-color: yellow;
-    width: 60%;
+    width: 200px;
     height: 200px;
     /* margin: auto; */
     border-top-right-radius: 50px;
@@ -25,7 +25,7 @@
   }
   .img1 {
     position: relative;
-    width: 88%;
+    width: 210px;
     height: 200px;
     border-bottom-left-radius: 50px;
     object-fit: fix;
@@ -36,8 +36,6 @@
   }
   .one {
     margin-bottom: 10px;
-
-    margin-top: 20px;
   }
   .view {
     width: 150px;

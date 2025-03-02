@@ -1,16 +1,9 @@
 import React from "react";
 import "./Header.css";
 import { FaHeart, FaPlus, FaStar } from "react-icons/fa";
-import { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 import yellow from "../assets/yellow.png";
 const Header = () => {
-  // Initialize AOS
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div className="header">
       <div className="flex-container">
