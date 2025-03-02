@@ -23,15 +23,19 @@ const Meet = () => {
           </a>
         </div>
         <div className="flex-item2">
-          <div className="box">
+          <div className="box" data-aos="fade-right" data-aos-duration="1000">
             <h2 className="text-center blok">Happy Clients</h2>
             <img src={rec1} alt="yellow" className="img-blk"></img>
           </div>
-          <div className="box mr50">
+          <div
+            className="box mr50"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <h2 className="text-center blok">Strong Team</h2>
             <img src={rec2} alt="yellow" className="img-blk"></img>
           </div>
-          <div className="box">
+          <div className="box" data-aos="fade-right" data-aos-duration="1000">
             <h2 className="text-center blok">Creativity Grows</h2>
             <img src={rec3} alt="yellow" className="img-blk"></img>
           </div>

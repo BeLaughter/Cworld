@@ -22,7 +22,7 @@ function App() {
       behavior: "smooth",
     });
   };
-  //add display class to btn when screen is scrolled to half vheight
+  //add/remove display class to btn when screen is scrolled to half vheight
   window.addEventListener("scroll", function () {
     let btntop = document.querySelector(".b2top");
     let scrollThreshold = btntop.offsetTop + window.innerHeight / 2; // 50vh below  position

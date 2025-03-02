@@ -53,7 +53,11 @@ const Faqc = () => {
           </a>
         </div>
         <div className="flex-item2a">
-          <div className="faq-input">
+          <div
+            className="faq-input"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             {faqs.map((faq, index) => (
               <div key={index}>
                 <button onClick={() => toggleFAQ(index)} className="faq-btn">

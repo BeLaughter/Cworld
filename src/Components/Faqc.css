@@ -14,15 +14,9 @@
     font-size: 16px;
     margin-bottom: 10px;
   }
-  .faq-btn:focus {
-    width: 100%;
+  .faq-btn:active {
     background-color: gold;
-    color: #fff;
-    padding: 10px;
     border: 3px solid gold;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
   }
   .faq-p {
     width: 100%;
@@ -57,27 +51,22 @@
     margin-bottom: 10px;
   }
   .faq-btn {
-    width: 400px;
+    width: 450px;
     background-color: #f1efef;
     color: #0e0d0d;
     padding: 10px 20px;
     border: 3px solid rgb(12, 12, 12);
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     margin: 10px;
   }
   .faq-btn:focus {
-    width: 400px;
     background-color: gold;
-    color: #0e0d0d;
-    padding: 10px 20px;
     border: 3px solid gold;
-    border-radius: 5px;
-    font-size: 16px;
-    margin: 10px;
   }
   .faq-p {
-    width: 350px;
+    width: 450px;
     background-color: #fcfafa;
     color: #0a0a0a;
     padding: 10px 20px;

@@ -9,7 +9,11 @@ const Life = () => {
         At Cworld’s we craft designs that inspire, engage, and deliver
         exceptional user experiences.<br></br> Our services are tailored to meet
       </p>
-      <div className="lcards flex-container">
+      <div
+        className="lcards flex-container"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         <Lcard
           title="UX/UI Design"
           a="Read More"

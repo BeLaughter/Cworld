@@ -30,7 +30,11 @@ const Mind = () => {
         </div>
       </div>
       <div className="flex-container mpad">
-        <div className="flex-item3">
+        <div
+          className="flex-item3"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <img src={rec4} alt="person1" className="mind-img" />
           <div className="flex">
             <div>
@@ -45,7 +49,7 @@ const Mind = () => {
             </div>
           </div>
         </div>
-        <div className="flex-item3">
+        <div className="flex-item3" data-aos="fade-up" data-aos-duration="1000">
           <img src={rec5} alt="person1" className="mind-img" />
           <div className="flex">
             <div>
@@ -60,7 +64,11 @@ const Mind = () => {
             </div>
           </div>
         </div>
-        <div className="flex-item3">
+        <div
+          className="flex-item3"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <img src={rec6} alt="person1" className="mind-img" />
           <div className="flex">
             <div>
