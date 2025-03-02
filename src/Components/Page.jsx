@@ -4,10 +4,6 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 const Page = (props) => {
-  // Initialize AOS
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div className="page">
       <h1
