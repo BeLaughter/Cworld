@@ -2,7 +2,6 @@
   "name": "myapp",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://myapp.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/register": "^7.25.9",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
+    "express": "^4.21.2",
     "owl.carousel": "^2.3.4",
     "react": "^19.0.0",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-owl-carousel": "^2.3.3",

@@ -56,10 +56,11 @@
 
 @media (min-width: 769px) {
   .div1 {
-    width: 260px;
-    height: 250px;
-    padding-left: 30px;
-    padding-top: 25px;
+    margin-top: 20px;
+    width: 360px;
+    height: 300px;
+    padding: 40px;
+    padding-bottom: 40px;
     top: 320px;
     left: 868px;
     border-top-left-radius: 80px;
@@ -68,8 +69,8 @@
   }
   .div2 {
     background-color: yellow;
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 250px;
     /* margin: auto; */
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -78,8 +79,8 @@
   }
   .img1 {
     position: relative;
-    width: 212px;
-    height: 200px;
+    width: 285px;
+    height: 250px;
     border-bottom-left-radius: 50px;
     object-fit: fix;
   }
