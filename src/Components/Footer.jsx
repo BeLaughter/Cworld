@@ -73,7 +73,9 @@ const Footer = () => {
         </div>
       </div>
       <hr></hr>
-      <h5 className="text-center">© 2025 CWorld. All Rights Reserved</h5>
+      <h5 className="text-center">
+        © 2025 CWorld. All Rights Reserved.Designed by BLACKFIRE
+      </h5>
     </div>
   );
 };
